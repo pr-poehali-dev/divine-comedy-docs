@@ -11,7 +11,7 @@ const QuoteBlock = ({ quote, source, className }: QuoteBlockProps) => {
   return (
     <div className={cn(
       "dante-quote relative p-6 bg-white dark:bg-dante-dark rounded-lg shadow-md",
-      "before:content-['"'] before:absolute before:top-2 before:left-4 before:text-6xl before:text-dante-primary/20 before:font-serif",
+      "before:content-[\"\"] before:absolute before:top-2 before:left-4 before:text-6xl before:text-dante-primary/20 before:font-serif",
       "hover:shadow-lg transition-shadow duration-300",
       className
     )}>
